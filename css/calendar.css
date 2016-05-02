@@ -18,3 +18,16 @@ body {
 span {
   padding: 5px;
 }
+
+.noHighlight {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.dateHighlight {
+  background-color: #5FBA7D;
+  font-weight: bold;
+}

@@ -36,7 +36,7 @@ var CalendarUi = function() {
           td.innerHTML = cells[i].date;
           
           if(highlight && todaysDate == cells[i].date) { //highlight today
-            td.setAttribute("style", "background-color: #6666FF;");
+            td.setAttribute("class", "dateHighlight");
           }
           
           i++; //only increment date after it's filled into the cell
