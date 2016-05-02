@@ -2,6 +2,10 @@ body {
   font: 16px/1.4 Georgia, serif;
 }
 
+.calendar {
+  height: 250px;
+}
+
 .today {
   text-decoration: underline;
   cursor: pointer;
