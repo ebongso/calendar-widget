@@ -1,0 +1,33 @@
+body {
+  font: 20px/1.4 Georgia, serif;
+}
+
+.calendar {
+  height: 300px;
+}
+
+.today {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+span {
+  padding: 5px;
+}
+
+.noHighlight {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.dateHighlight {
+  background-color: #5FBA7D;
+  font-weight: bold;
+}
