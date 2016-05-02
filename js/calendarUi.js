@@ -30,6 +30,8 @@ var CalendarUi = function() {
       var tr = document.createElement("tr");
       for(var j = 0; j < daysLength && i < cellsLength; j++) { //loop the days in a week
         var td = document.createElement("td");
+        
+        //The following if statement is for dates that do not start from Sunday
         if(j == cells[i].day) { //Fill in the date when it gets to the cell
           td.innerHTML = cells[i].date;
           
@@ -37,7 +39,7 @@ var CalendarUi = function() {
             td.setAttribute("style", "background-color: #6666FF;");
           }
           
-          i++;
+          i++; //only increment date after it's filled into the cell
         }
         tr.appendChild(td);
       }

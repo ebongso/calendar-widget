@@ -1,3 +1,16 @@
 body {
   font: 16px/1.4 Georgia, serif;
 }
+
+.today {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+span {
+  padding: 5px;
+}
